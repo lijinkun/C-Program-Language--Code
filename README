@@ -15,5 +15,30 @@ git push -u origin master:与远程分支origin进行同步
 
 如何进行同步：
 现在网站分支上建立一个新的repo
-然后
 
+
+Global setup:
+ Set up git
+  git config --global user.name "Li Jinkun"
+  git config --global user.email lijinkunsdkjdx@163.com
+      
+Next steps:
+  mkdir projectname
+  cd projectname
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:lijinkun/projectname.git
+  git push -u origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:lijinkun/projectname.git
+  git push -u origin master
+      
+Importing a Subversion Repo?
+  Click here
+      
+When you're done:
+  Continue
