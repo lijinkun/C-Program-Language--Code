@@ -1,2 +1,19 @@
 C Program Language note
 which used to store the useful and valuable code 
+
+the commonly use command:
+
+mkdir 目录名：增加目录
+cd 路径：移动命令
+./
+~/
+touch 文件名: 生成文件
+git add 文件名：将相应文件推入需要与远程分支进行同步的列表中
+git remote add origin git@github.com:lijinkun/C-Program-Language--Code.git   :用origin作为远程文件的别名
+git push -u origin master:与远程分支origin进行同步
+
+
+如何进行同步：
+现在网站分支上建立一个新的repo
+然后
+
